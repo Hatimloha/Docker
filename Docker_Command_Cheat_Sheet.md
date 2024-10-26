@@ -1,6 +1,3 @@
-# Let's update the content to include all Docker commands in a Markdown file format and save it.
-
-docker_commands_all_md = """
 # Docker Command Cheat Sheet
 
 ### 1. **Docker Images**
