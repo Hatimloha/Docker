@@ -1,6 +1,3 @@
-# Creating the content for Dockerfile-Language-Guide.md as requested in markdown format.
-
-content = """
 # Dockerfile Language Guide
 
 This document provides an overview of common keywords and instructions in Dockerfiles, along with their explanations and usage.
