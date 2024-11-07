@@ -13,7 +13,7 @@ mkdir flask-app
     - requirements.txt
     - app.py
 
-- 1. Dockerfile
+1. Dockerfile
 ```bash
 vi Dockerfile
 ```
