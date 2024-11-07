@@ -53,6 +53,10 @@ Werkzeug==2.2.2
 ```
 3. app.py
 ```bash
+vi app.py
+```
+
+```bash
 from flask import Flask, render_template, request, jsonify
 
 # Create a Flask instance
@@ -91,3 +95,18 @@ if __name__ == '__main__':
     # Run the app on localhost with debug mode enabled
     app.run(debug=True)
 ```
+## Docker Install:
+Ubuntu:
+```bash
+sudo apt-get install docker.io
+```
+
+> Now Docker command
+```bash
+docker build -t flask-app .
+```
+
+```bash
+docker run -p 5000:5000 flask-app
+```
+
