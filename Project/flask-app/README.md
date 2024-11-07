@@ -8,10 +8,10 @@ mkdir flask-app
 ```
 ## create the file given in repo:
 - require files: 
-- /flask-app/
-  - Dockerfile
-  - requirements.txt
-  -  app.py
+  - /flask-app/
+    - Dockerfile
+    - requirements.txt
+    - app.py
 
 - 1. Dockerfile
 ```bash
