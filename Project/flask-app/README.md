@@ -12,7 +12,6 @@ mkdir flask-app
   - Dockerfile
   - requirements.txt
   -  app.py
-  - .dockerignore (optional)
 
 - 1. Dockerfile
 ```bash
