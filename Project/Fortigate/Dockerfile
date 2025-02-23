@@ -1,4 +1,5 @@
-```dockerfile
+# Dockerfile
+```bash
 FROM ubuntu:22.04
 
 RUN apt update && \
@@ -6,5 +7,4 @@ RUN apt update && \
     apt clean
 
 COPY fortigate.qcow2 /opt/fortigate.qcow2
-
 ```
