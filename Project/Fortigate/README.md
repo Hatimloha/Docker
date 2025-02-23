@@ -18,16 +18,20 @@ Click Download.
 Step 3: Extract the QCOW2 Image
 Once downloaded, extract the .zip file to get the fortios.qcow2 file.
 ```
-### Step 2: install ubuntu in laptop or Cloud
+### Step 2: install Ubuntu
+- Cloud (AWS, Azure, GCP)
+- WSL (windows)
+- Mac
 
-### Step3: Docker installation
+### Step3: Docker installation:
 ```bash
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install docker.io
 ```
-### Step 4: Clone the repo
+### Step 4: Clone the repo:
 ```
 git clone <repo url>
 ```
-### Step 5: 
+### Step 5: Now built the docker image:
+
