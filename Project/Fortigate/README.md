@@ -35,6 +35,26 @@ sudo apt-get install docker.io
 ```bash
 git clone <repo url>
 ```
-### Step 5: Now built the docker image:
+### Step 5: Build the Docker Image:
 ```bash
 docker build -t fortigate .
+```
+### Run the FortiGate Firewall in Docker:
+```bash
+docker run --name fortigate -d --privileged -p 8443:443 -p 2222:22 fortigate
+```
+### Access the FortiGate GUI:
+```bash
+https://localhost:8443
+```
+
+### Common Issues & Fixes
+- Manually Start QEMU Inside the Container
+> If the error is related to QEMU, try running it inside the container:
+```bash
+docker exec -it fortigate bash
+```
+- Once inside the container, manually start QEMU:
+```bash
+qemu-system-x86_64 -m 1024 -smp 2 -drive file=/opt/fortigate.qcow2,format=qcow2 -netdev user,id=net0,hostfwd=tcp::8443-:443,hostfwd=tcp::2222-:22 -device e1000,netdev=net0 -nographic
+```
