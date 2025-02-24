@@ -19,8 +19,8 @@ Step 3: Extract the QCOW2 Image
 Once downloaded, extract the .zip file to get the fortios.qcow2 file.
 ```
 ```bash
-- unzip FortiGate-VM64-KVM.zip
-- mv fortios.qcow2 fortigate.qcow2
+unzip FortiGate-VM64-KVM.zip
+mv fortios.qcow2 fortigate.qcow2
 ```
 ### Step 2: install Ubuntu
 - Cloud (AWS, Azure, GCP)
