@@ -17,6 +17,8 @@ In the platform list, select KVM (which provides a .qcow2 image).
 Click Download.
 Step 3: Extract the QCOW2 Image
 Once downloaded, extract the .zip file to get the fortios.qcow2 file.
+```
+```bash
 - unzip FortiGate-VM64-KVM.zip
 - mv fortios.qcow2 fortigate.qcow2
 ```
